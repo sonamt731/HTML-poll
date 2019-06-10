@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Poll Site</title>
+<link rel="stylesheet" href="poll.css">
+<script type = "text/javascript" src = "poll.js"></script>
+</head>
+
+<body>
+<h1>Favorite Clothing Store</h1>
+<p>Please Vote for your Favorite Clothing Store!</p>
+
+<form name = "myForm" id = "personal" action = "assign7_poll.php" onsubmit = "validateForm(event)" method="post" >
+    
+    <h2>Stores: <br></h2>
+    <input type ="radio" name = "yourchoice" value ="Zara"> Zara <br>
+    <input type = "radio" name = "yourchoice" value = "Bershka"> Bershka <br>
+    <input type = "radio" name = "yourchoice" value = "Topshop"> Topshop <br>
+    <input type = "radio" name = "yourchoice" value = "Urban Outfitters"> Urban Outfitters <br>
+    <input type = "radio" name = "yourchoice" value = "American Eagle"> American Eagle <br>
+
+    <h3>Enter Your Email Address: 
+    <input type=text name=youremail><br>
+    </h3>
+    <input type=submit value="Submit">
+    <input type=reset value=Cancel>
+    <br>
+    <br>
+    <div id = "msg"></div>
+</form>
+    
+<br>
+
+<img src= shopping.gif alt="A Fun Gif">
+</body>
+    
+</html>

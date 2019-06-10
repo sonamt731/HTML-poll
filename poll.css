@@ -1,0 +1,44 @@
+body{
+    background-color: #37C092;
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2em;
+    
+}
+
+p{
+    color: #D2EAE2;
+    text-align: center;
+}
+
+
+#personal{
+	background-color: #C2E8DB;
+	color: #346051;
+	padding: 5px 15px 30px 15px;
+    margin-right: 250px;
+    margin-left: 250px;
+	border: 5px solid #64867A;	
+
+}
+
+#colored{
+    background-color: #2D8271;
+	color: #DDFEF8;
+	padding: 5px 15px 30px 15px;
+    margin-right: 250px;
+    margin-left: 250px;
+	border: 5px solid #97CBC1;	
+}
+
+img{
+    text-align: center;
+    margin-right: 250px;
+    margin-left: 257px;
+}
+
+
